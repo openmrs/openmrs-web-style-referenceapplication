@@ -1,0 +1,45 @@
+{
+  "name": "@openmrs/style-referenceapplication",
+  "version": "0.5.0",
+  "description": "Styling (css, fonts, images) for Reference Application",
+  "main": "lib/index.min.js",
+  "engines": {
+    "node": "^6.10.0"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+	"build:dev": "webpack --progress --colors --env=dev",
+	"build:prod": "webpack --progress --colors --env=prod",
+    "build": "rimraf lib && webpack --progress --colors --env=prod",
+    "prepublish": "rimraf lib && webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmrs/openmrs-web-style-referenceapplicaiton.git"
+  },
+  "keywords": [
+    "referenceapplication",
+    "openmrs",
+    "style"
+  ],
+  "author": "rkorytkowski",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/openmrs/openmrs-web-style-referenceapplication#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "compass-mixins": "^0.12.10",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "image-webpack-loader": "^3.3.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.3",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {}
+}

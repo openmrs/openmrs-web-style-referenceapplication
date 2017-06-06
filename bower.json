@@ -1,0 +1,13 @@
+{
+  "name": "@openmrs/style-referenceapplication",
+  "authors": [
+    "rkorytkowski"
+  ],
+  "main": "./lib/index.min.js",
+  "description": "Styling (css, fonts, images) for Reference Application",
+  "license": "MPL-2.0",
+  "private": false,
+  "ignore": [],
+  "dependencies": {
+  }
+}
