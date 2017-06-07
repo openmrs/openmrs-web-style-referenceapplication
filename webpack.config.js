@@ -8,9 +8,11 @@ var sassLoader = 'sass-loader?outputStyle=' + outputStyle + '&includePaths[]='
         		+ path.resolve(__dirname, "./node_modules/compass-mixins/lib");
 
 var config = {
-	entry: './src/index.js',
+	entry: {
+		'referenceapplication': './src/index.js',
+	},
 	output: {
-		filename: 'index.min.js',
+		filename: '[name].js',
 		path: path.resolve(__dirname, 'lib'),
 		library: 'style-openmrs-referenceapplication',
 		libraryTarget: 'umd',

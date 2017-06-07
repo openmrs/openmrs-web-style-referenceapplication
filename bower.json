@@ -3,7 +3,7 @@
   "authors": [
     "rkorytkowski"
   ],
-  "main": "./lib/index.min.js",
+  "main": "./lib/referenceapplication.js",
   "description": "Styling (css, fonts, images) for Reference Application",
   "license": "MPL-2.0",
   "private": false,
