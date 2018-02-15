@@ -11,6 +11,6 @@ deploy:
   provider: npm
   on: 
     tags: true
-  email : infrastructure@openmrs.org
+  email : rafal@openmrs.org
   api_key:
     secure: $NPM_API_KEY
