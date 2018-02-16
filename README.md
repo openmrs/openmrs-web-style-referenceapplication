@@ -28,6 +28,10 @@ category using the `javascript` tag. Issues should be logged in the `OMRSJS`
 project on [JIRA](https://issues.openmrs.org/browse/OMRSJS) and the component
 should be set to `openmrs.js`.
 
+## Release
+
+In order to release a new version, set a version to be releaesd in package.json and createa a new release from the releases tab on github.
+
 ## License
 
 [MPL 2.0 w/ HD](http://openmrs.org/license/)
