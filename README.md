@@ -1,7 +1,7 @@
 <img src="https://cloud.githubusercontent.com/assets/668093/12567089/0ac42774-c372-11e5-97eb-00baf0fccc37.jpg" alt="OpenMRS"/>
 
 # OpenMRS Web Style Reference Application
-This repository contains the web style guide for Reference Application, the library provides way for developers to easily access styling (css, fonts, images) for OpenMrs platform.
+This repository contains the web style guide for Reference Application, the library provides way for developers to easily access styling (css, fonts, images) for OpenMRS platform.
 
 ## Install
 ```sh
